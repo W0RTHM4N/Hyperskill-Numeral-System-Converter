@@ -150,7 +150,7 @@ public class Converter {
         }
     }
 
-    public static long decTo1(double decimal) {
+    public static String decTo1(double decimal) {
 
         StringBuilder num = new StringBuilder();
 
@@ -160,7 +160,7 @@ public class Converter {
 
         }
 
-        return Long.parseLong(num.toString());
+        return num.toString();
     }
 
     public static String decToRadix(double decimal, int radix) {
