@@ -1,4 +1,4 @@
-Numeral System Converter
+# Numeral System Converter
 
 My 7th project from Hyperskill.
 
